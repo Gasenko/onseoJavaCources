@@ -1,7 +1,7 @@
 package com.course.onseo;
 
 import com.course.onseo.Annimal.Dog;
-import com.course.onseo.helpers.Helper;
+import com.course.onseo.Helpers.Helper;
 
 public class Lessons19112020 {
 
@@ -17,7 +17,7 @@ public class Lessons19112020 {
 
         bars.walk();
 
-        System.out.println(Helper.isDogOld(bars));
+        //System.out.println(Helper.isDogOld(bars));
 
     }
 }
