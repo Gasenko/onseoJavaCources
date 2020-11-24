@@ -8,13 +8,15 @@ public class HumanHW {
         Male male = new Male();
         Female female = new Female();
 
+
         System.out.println();
+
         System.out.println(male.getNameMale());
         System.out.println(female.getNameFemale());
         System.out.println(male.getAgeMale());
         System.out.println(female.getAgeFemale());
-        System.out.println(female.getTypeFemale());
-        System.out.println(male.getTypeMale());
+        //System.out.println(female.getTypeFemale());
+        //System.out.println(male.getTypeMale());
 
         male.walkMale();
         female.walkFemale();

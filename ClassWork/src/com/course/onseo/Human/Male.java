@@ -1,35 +1,50 @@
 package com.course.onseo.Human;
+
 public class Male {
-    private String type;
+    private String gender;
     private String name;
-    private int age;
+    private int ageMale;
+
     public Male(){
         name = "Васьок";
-        age = 35;
-        type = "Male";
+        ageMale = 35;
+        gender = "Male";
     }
-    public Male(String name, String type, int age){
-        this.name = name;
-        if (age > 0 && age > 100){
-            this.age = age;}
-    }
-    public String getNameMale(){return name;}
-    public int getAgeMale(){return  age;}
-    public String getTypeMale(){return type;}
 
+    public Male(String name, String gender, int ageMale){
+        this.name = name;
+
+        if (ageMale > 0 && ageMale > 100){
+            this.ageMale = ageMale;}
+        this.gender = gender;
+    }
+
+    public String getNameMale(){
+        return name;
+    }
+    public int getAgeMale(){
+        return ageMale;
+    }
+    public String getGender(){
+        return gender;
+    }
     public void setAgeMale(int age){
-        if (age>0 && age >100){
-            this.age = age;}
+        if (ageMale > 0 && ageMale > 100){
+            this.ageMale = ageMale;}
     }
     public void setNameMale(String name) {
         if (name.isBlank())
             this.name = name;
     }
-    public void setTypeMale(String type) {
-        if (type.isBlank())
-            this.type = type;
+    public void setGender(String gender) {
+        if (gender.isBlank())
+            this.gender = gender;
     }
 
-    public void sayMale(){ System.out.println("Дарова Братва");}
-    public void walkMale(){System.out.println("Пішов на пивасік");}
+    public void sayMale(){
+        System.out.println("Дарова Братва");
+    }
+    public void walkMale(){
+        System.out.println("Пішов на пивасік");
+    }
 }
