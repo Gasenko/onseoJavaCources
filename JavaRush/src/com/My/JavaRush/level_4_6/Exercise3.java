@@ -1,4 +1,4 @@
-package com.My.JavaRush.level_4;
+package com.My.JavaRush.level_4_6;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 public class Exercise3 {

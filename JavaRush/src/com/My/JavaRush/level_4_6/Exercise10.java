@@ -1,4 +1,4 @@
-package com.My.JavaRush.level_4;
+package com.My.JavaRush.level_4_6;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,14 +12,17 @@ public class Exercise10 {
         int c = Integer.parseInt(reader.readLine());
         int d = Integer.parseInt(reader.readLine());
 
-        int min = a < b ? a : b;
-        System.out.println(min);
+        //int max = a < b ? a : b;
+        System.out.println(Math.max(Math.max(a,b), Math.max(c,d)));
 
     }
 }
 /*
 Ввести с клавиатры четыре числа, и вывести максимальное из них.
 Если числа равны между собой, необходимо вывести любое.
+
+Для 4х чисел сначала исключаем равенство a == b && b == c && c == d,
+затем последовательно проверка на максимум для a,b,c b если нет, то d max   по аналогии: a >= b && a >= c && a >= d.
 
 Требования:
 - Програма должна считывать числа с клавиатуры;
