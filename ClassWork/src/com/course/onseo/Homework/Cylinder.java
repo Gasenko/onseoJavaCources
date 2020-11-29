@@ -10,7 +10,7 @@ public class Cylinder extends Circle{
 
     public Cylinder(double h, double r, int a, int b)
     {
-        super(r,a,b);
+        super((int) r,a,b);
         setHeight(h);
     }
 

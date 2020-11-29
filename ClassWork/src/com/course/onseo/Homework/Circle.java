@@ -1,7 +1,7 @@
 package com.course.onseo.Homework;
 
 public class Circle extends Point{
-    private double radius;
+    public double radius;
 
     public double getRadius() {
         return radius;
