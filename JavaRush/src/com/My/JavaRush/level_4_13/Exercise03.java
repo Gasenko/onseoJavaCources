@@ -7,10 +7,11 @@ import java.io.InputStreamReader;
 public class Exercise03 {
     public static void main(String[] args){
         for (int x = 1; x <= 10; x++) {
-            for (int i = 2; i <= 10; i++) {
+
+            for (int i = 0; i <x; i++) {
                 System.out.print("8");
             }
-            System.out.println("8");
+            System.out.println();
         }
     }
 }
