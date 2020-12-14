@@ -1,4 +1,4 @@
-package com.My.JavaRush.level_5;
+package com.My.JavaRush.level_5_5;
 //Трикотаж
                                                   
                                                   

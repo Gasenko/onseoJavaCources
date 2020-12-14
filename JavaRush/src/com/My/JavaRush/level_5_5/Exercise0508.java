@@ -1,4 +1,4 @@
-package com.My.JavaRush.level_5;
+package com.My.JavaRush.level_5_5;
 public class Exercise0508 {
     String name;
     int age;
