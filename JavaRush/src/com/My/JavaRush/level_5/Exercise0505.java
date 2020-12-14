@@ -1,6 +1,6 @@
-
-/*
-Кошачья бойня
+package com.My.JavaRush.level_5;
+//Кошачья бойня
+public class Exercise0505 {
 
         public static void main(String[] args) {
             //напишите тут ваш код
@@ -36,11 +36,11 @@
                 return score > 0; // return score > 0 ? true : false;
             }
         }
-    }
+}
 
 
 
-
+/*
 Создать три кота используя класс Cat.
 Провести три боя попарно между котами.
 Класс Cat создавать не надо. Для боя использовать метод boolean fight(Cat anotherCat).

@@ -1,4 +1,7 @@
-/*
+package com.My.JavaRush.level_5;
+
+public class Exercise0503 {
+
     String name;
     int age;
 
@@ -17,8 +20,8 @@
     public void setAge(int age) {
         this.age = age;
     }
-
-
+}
+/*
 Создать class Dog. У собаки должна быть кличка String name и возраст int age.
 Создай геттеры и сеттеры для всех переменных класса Dog.
 Требования:

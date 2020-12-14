@@ -1,9 +1,6 @@
-/*
-                                                   
-Создание кота                                                  
-                                                  
-                                                  
-public class Cat {                                                  
+package com.My.JavaRush.level_5;
+//Создание кота
+public class Exercise0501 {
     //напишите тут ваш код                                                  
 String name;
 int age;                
@@ -14,7 +11,7 @@ int strength;
     }                                                  
 } 
 
-
+/*
 Создать класс Cat. У кота должно быть имя (name, String), возраст (age, int), вес (weight, int), сила (strength, int).
 Требование:
 - програма не должна считывать даные с клавиатуры;

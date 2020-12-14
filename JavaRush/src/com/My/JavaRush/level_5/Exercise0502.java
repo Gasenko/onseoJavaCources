@@ -1,16 +1,18 @@
+package com.My.JavaRush.level_5;
+
 /*
 Реализовать метод fight                                                  
-                                               
+*/
                                                   
-public class Cat {                                                  
+public class Exercise0502 {
     public int age;                                                  
     public int weight;                                                  
     public int strength;                                                  
                                                   
-    public Cat() {                                                  
+    public Exercise0502() {
     }                                                  
                                                   
-    public boolean fight(Cat anotherCat) {                                                  
+    public boolean fight(Exercise0502 anotherCat) {
         //напишите тут ваш код
                    int ageScore = Integer.compare(this.age, anotherCat.age);
                 int weightScore = Integer.compare(this.weight, anotherCat.weight);
@@ -24,7 +26,7 @@ public class Cat {
                                                   
     }                                                  
 }                            
-
+/*
 
 Реализуй метод boolean fight(Cat anotherCat):
 продумай механизм драки котов в зависимости от их веса, возраста и силы.

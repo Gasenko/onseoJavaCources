@@ -1,9 +1,8 @@
-
-/*
-Трикотаж                                                  
+package com.My.JavaRush.level_5;
+//Трикотаж
                                                   
                                                   
-public class Solution {                                                  
+public class Exercise0504 {
     public static void main(String[] args) {                                                  
         Cat cat1 = new Cat("Tom", 2, 2, 2);                                                  
         Cat cat2 = new Cat("Sam", 2, 2, 2);                                                  
@@ -24,6 +23,7 @@ public class Solution {
         }                                                  
     }                                                  
 }
+/*
 Пару задач назад студенты секретного центра JavaRush создавали класс Cat. 
 Теперь пришла пора реализовать котов во плоти, разумеется по образу и подобию класса Cat, а точнее - основываясь на нём, как на шаблоне. 
 Их - котов - должно быть трое. Наполните этих троих жизнью, то есть, конкретными данными.

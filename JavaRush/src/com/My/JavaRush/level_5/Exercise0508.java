@@ -1,5 +1,5 @@
-/*
-public class Person {
+package com.My.JavaRush.level_5;
+public class Exercise0508 {
     String name;
     int age;
     char sex;
@@ -33,7 +33,7 @@ public class Person {
 
     }
 }
-
+/*
 
 Создать class Person. У человека должно быть имя String name, возраст int age, пол char sex.
 Создай геттеры и сеттеры для всех переменных класса Person.
