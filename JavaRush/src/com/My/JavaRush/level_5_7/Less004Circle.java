@@ -1,6 +1,6 @@
 package com.My.JavaRush.level_5_7;
 
-public class Less004 {
+public class Less004Circle {
                                                                                                       
 /*                                                                                                     
 Создать класс Circle                                                                                                    
@@ -31,7 +31,7 @@ this.centerX = centerX; this.centerY = centerY; this.radius = radius; this.width
                                                                                                     
     }                                                                                                    
 } 
-}
+
 /*
 Создать класс (Circle) круг, с тремя инициализаторами:
 - centerX, centerY, radius
