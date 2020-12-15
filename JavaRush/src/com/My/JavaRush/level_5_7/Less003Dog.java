@@ -1,6 +1,6 @@
 package com.My.JavaRush.level_5_7;
 
-public class Less003 {
+public class Less003Dog {
   
   /*                                                                                                     
 Создать класс Dog                                                                                                    
@@ -32,4 +32,4 @@ this.color = color;
                                                                                                     
     }                                                                                                    
 }
-}
+
