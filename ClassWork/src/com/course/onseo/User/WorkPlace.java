@@ -1,6 +1,5 @@
 package com.course.onseo.User;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class WorkPlace {
