@@ -48,4 +48,8 @@ public class Female {
     public void walkFemale(){
         System.out.println("Пішла гуляти бо за@балася");
     }
+
+    public void ageFemale() {
+        int age = 35;
+    }
 }
