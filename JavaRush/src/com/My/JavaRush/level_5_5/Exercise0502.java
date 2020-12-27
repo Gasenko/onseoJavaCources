@@ -14,7 +14,7 @@ public class Exercise0502 {
                                                   
     public boolean fight(Exercise0502 anotherCat) {
         //напишите тут ваш код
-                   int ageScore = Integer.compare(this.age, anotherCat.age);
+                int ageScore = Integer.compare(this.age, anotherCat.age);
                 int weightScore = Integer.compare(this.weight, anotherCat.weight);
                 int strengthScore = Integer.compare(this.strength, anotherCat.strength);
 
