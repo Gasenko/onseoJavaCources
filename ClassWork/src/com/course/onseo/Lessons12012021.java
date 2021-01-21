@@ -16,7 +16,7 @@ public class Lessons12012021 {
         list.put("h",5);
         list.put("y",6);
         list.put("z",9);
-        list.put("a",0);
+        //list.put("a",0);
         list.put("w",null);
         list.put(null,null);
 
