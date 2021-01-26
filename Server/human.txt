@@ -1,0 +1,1 @@
+Human{name='Vasja', age=23, sex='Male'}
